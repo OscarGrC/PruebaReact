@@ -1,0 +1,20 @@
+.saved-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-backgroundSecondary);
+    color: var(--color-textSecondary);
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.saved-item-delete {
+    cursor: pointer;
+    color: var(--color-primary);
+}
+
+.saved-item-delete:hover {
+    color: var(--color-error);
+}

@@ -1,0 +1,121 @@
+.converter {
+    background-color: var(--color-primary);
+    padding: 20px;
+    border-radius: 20px;
+    width: 40%;
+    color: var(--color-text);
+}
+
+.title {
+    text-align: left;
+    font-size: 1.3em;
+    color: var(--color-text);
+}
+
+.converter-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.converter-select {
+    flex: 2;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    background-color: var(--color-primary);
+    border-bottom: 2px solid #ffffff;
+    color: var(--color-text);
+}
+
+.icon-arrows {
+    margin-left: 1%;
+    color: var(--color-text);
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.user-input {
+    margin-left: 10%;
+    flex: 2;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid var(--color-text);
+    background-color: transparent;
+    color: var(--color-text);
+    outline: none;
+    text-align: right;
+}
+
+.unitIn-text {
+    color: var(--color-text);
+    font-size: 0.9em;
+    margin-right: 5%;
+}
+
+.converter-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 3%;
+}
+
+.icon-heart {
+    font-size: 1.2em;
+}
+
+.result-text {
+    font-size: 1.3em;
+    text-align: right;
+    color: var(--color-text);
+}
+
+.result-container {
+    display: flex;
+    align-items: right;
+    font-weight: bold;
+    gap: 5px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.unitOut-text {
+    padding-top: 7px;
+    font-size: 0.9em;
+    color: var(--color-text);
+    margin-left: 5px;
+}
+
+@media (max-width: 1075px) {
+    .converter {
+        width: 88%;
+    }
+
+    .converter-row {
+        flex-wrap: wrap;
+    }
+
+    .converter-select {
+        flex: 70%;
+    }
+
+    .icon-arrows {
+        flex: 25%;
+        text-align: left;
+        font-size: 1em;
+    }
+
+    .user-input {
+        flex: 65%;
+        text-align: left;
+        margin: 0%;
+    }
+
+    .unitIn-text {
+        flex: 20%;
+        text-align: left;
+    }
+
+}

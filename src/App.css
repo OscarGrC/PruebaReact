@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #2D0039;
+  --color-background: #ffffff;
+  --color-backgroundSecondary: #e3e3e3;
+  --color-text: #ffffff;
+  --color-textSecondary: #585757;
+  --color-light: #e0e0e0;
+  --color-error: #ff4d4d;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3%;
+  padding-left: 6%;
+}
+
+.footer-content {
+  background-color: var(--color-background);
+  padding: 10px;
+}

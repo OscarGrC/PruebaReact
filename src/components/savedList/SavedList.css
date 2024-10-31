@@ -1,0 +1,32 @@
+.global-container {
+    width: 42%;
+    padding-right: 1%;
+    margin-top: 4%;
+}
+
+.saved-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+    grid-row-gap: 5px;
+}
+
+.titleOfList {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--color-textSecondary);
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1075px) {
+    .global-container {
+        width: 88%;
+    }
+
+    .saved-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

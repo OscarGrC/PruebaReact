@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: var(--color-background);
+    border-bottom: 2px solid var(--color-light);
+    font-family: 'Ubuntu', sans-serif;
+    padding-right: 20%;
+}
+
+.Header-icon-arrows {
+    font-size: 24px;
+    color: var(--color-primary);
+}
+
+.Header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-primary);
+}
